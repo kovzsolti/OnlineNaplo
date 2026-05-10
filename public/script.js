@@ -16,7 +16,13 @@ async function loadNotes() {
 
         div.innerHTML = `
             <h3>${note.title}</h3>
-            <p>${note.content}</p>
+
+<small>
+    Létrehozva:
+    ${new Date(note.created_at).toLocaleString()}
+</small>
+
+<p>${note.content}</p>
 
             <div class="note-buttons">
                 <button onclick="editNote(${note.id}, '${note.title}', '${note.content}')">
