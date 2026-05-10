@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Napló</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Online Napló</h1>
+
+        <form id="noteForm">
+            <input type="text" id="title" placeholder="Jegyzet címe" required>
+
+            <textarea id="content" placeholder="Jegyzet tartalma" required></textarea>
+
+            <button type="submit">Mentés</button>
+        </form>
+
+        <div id="notesList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
