@@ -2,11 +2,16 @@
 
 ## Projekt leírása
 
-Az Online Napló egy egyszerű webalkalmazás, amely lehetőséget biztosít jegyzetek létrehozására, listázására, szerkesztésére és törlésére.
+Az Online Napló egy egyszerű webalkalmazás. 
+Jegyzet:
+létrehozás, 
+listázás, 
+szerkesztés
+törlés.
 
-A projekt célja egy alapvető webprogramozási alkalmazás elkészítése frontend, backend és relációs adatbázis használatával.
+A projekt célja egy web alkalmazás elkészítése, frontenddel backenddel és relációs adatbázis használatával.
 
-## Használt technológiák
+## technológiák
 
 - HTML
 - CSS
